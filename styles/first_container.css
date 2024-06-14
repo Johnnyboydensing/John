@@ -1,0 +1,131 @@
+/** @format */
+
+#first_section {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.first_content {
+  max-width: 1400px;
+  line-height: 1;
+}
+.para {
+  font-size: 1.2rem;
+  color: #111;
+  margin-bottom: 1.3rem;
+  font-weight: 700;
+}
+.head {
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 0.9;
+  color: #111;
+  margin-bottom: 1rem;
+}
+.details {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: rgb(63, 60, 60);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 300px) {
+  #first_section {
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
+  }
+  .first_content {
+    max-width: 1400px;
+    padding: 20px;
+    width: 100%;
+  }
+  .para {
+    font-size: 1rem;
+    color: #111;
+    margin-bottom: 1.3rem;
+    font-weight: 700;
+  }
+  .head {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 0.9;
+    color: #111;
+    margin-bottom: 1rem;
+  }
+  .details {
+    font-size: 1rem;
+    color: rgb(63, 60, 60);
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  #first_section {
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .first_content {
+    max-width: 1400px;
+    padding: 20px;
+  }
+  .para {
+    font-size: 1rem;
+    color: #111;
+    margin-bottom: 1.3rem;
+    font-weight: 700;
+  }
+  .head {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 0.9;
+    color: #111;
+    margin-bottom: 1rem;
+  }
+  .details {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: rgb(63, 60, 60);
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 901px) {
+  #first_section {
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .first_content {
+    max-width: 1400px;
+    padding: 40px;
+  }
+  .para {
+    font-size: 1.2rem;
+    color: #111;
+    margin-bottom: 1.3rem;
+    font-weight: 700;
+  }
+  .head {
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 0.9;
+    color: #111;
+    margin-bottom: 1rem;
+  }
+  .details {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: rgb(63, 60, 60);
+    font-weight: 600;
+  }
+}

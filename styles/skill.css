@@ -1,0 +1,232 @@
+/** @format */
+
+#skills {
+  display: flex;
+  justify-content: center;
+}
+.technical_skills {
+  width: 100%;
+
+  max-width: 1400px;
+  padding: 50px;
+}
+.percent_container {
+  margin-top: 10px;
+}
+.pl_container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ts_container {
+  width: 100%;
+  max-width: 1400px;
+  margin-top: 40px;
+  display: flex;
+  gap: 150px;
+}
+
+.ts_title {
+  margin-bottom: 3rem;
+  color: #111;
+  font-size: 4em;
+  text-align: center;
+}
+
+.front_container {
+  width: 100%;
+}
+
+.background_html {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_html {
+  background-color: #47e7ec;
+  width: 90%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+.background_css {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_css {
+  background-color: #47e7ec;
+  width: 90%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+.background_jq {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_jq {
+  background-color: #47e7ec;
+  width: 50%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+.background_js {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_js {
+  background-color: #47e7ec;
+  width: 70%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+.background_react {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_react {
+  background-color: #47e7ec;
+  width: 70%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+.background_bt {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_bt {
+  background-color: #47e7ec;
+  width: 70%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+.background_tw {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_tw {
+  background-color: #47e7ec;
+  width: 80%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+.caption {
+  display: flex;
+  justify-content: space-between;
+}
+.f {
+  text-align: center;
+  margin-top: 1rem;
+  color: #111;
+  font-size: 2em;
+}
+
+.back_container {
+  width: 100%;
+}
+.background_monggo {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_monggo {
+  background-color: #47e7ec;
+  width: 70%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+.background_php {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_php {
+  background-color: #47e7ec;
+  width: 60%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+.background_node {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_node {
+  background-color: #47e7ec;
+  width: 80%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+.background_mysql {
+  background-color: rgb(170, 164, 164);
+  height: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+.color_mysql {
+  background-color: #47e7ec;
+  width: 80%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 10px #47e7ec;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 901px) {
+  .ts_container {
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .front_container {
+    width: 75%;
+  }
+  .back_container {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .ts_container {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .back_container {
+    width: 100%;
+  }
+  .front_container {
+    width: 100%;
+  }
+  .ts_title {
+    color: #111;
+    font-size: 3em;
+    text-align: center;
+  }
+}

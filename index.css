@@ -1,0 +1,209 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: transparent;
+  color: #333333;
+}
+
+.header_container {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.header {
+  z-index: 100;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.logo {
+  border-bottom: 1px solid rgb(75, 75, 75);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+  width: 100%;
+}
+.logo a {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  width: 120px;
+  height: 60px;
+}
+
+.img-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.ham-menu-btn {
+  border: none;
+  display: flex;
+  justify-content: start;
+  background: transparent;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.hamb {
+  width: 25px;
+  height: 25px;
+}
+
+.hamb2 {
+  width: 25px;
+  height: 25px;
+}
+.ham-menu-btn:hover {
+  border: none;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.ham-menu-close {
+  display: flex;
+  justify-content: end;
+  background: transparent;
+  border: none;
+  padding: 17px;
+  margin-right: -12px;
+  cursor: pointer;
+}
+
+.hamb2:hover {
+  border: none;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.h-ul li {
+  list-style: none;
+  border-bottom: 1px solid rgb(75, 75, 75);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+}
+.h-ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.h-ul li a:hover {
+  text-decoration: none;
+  color: rgb(202, 199, 199);
+  font-weight: 300;
+}
+.h-ul {
+  background: #111;
+  transition: width 0.5s ease, opacity 0.5s ease;
+  width: 0%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  border-bottom-left-radius: 40%;
+  z-index: 100;
+}
+
+.active {
+  width: 50%;
+}
+
+/* Phones (portrait and landscape) */
+
+@media only screen and (max-width: 600px) {
+  .active {
+    width: 100%;
+  }
+  .h-ul {
+    border-bottom-left-radius: 0%;
+    z-index: 100;
+  }
+}
+
+/* Bigger screens*/
+
+@media only screen and (min-width: 901px) {
+  .ham-menu-btn {
+    display: none;
+  }
+  .header_container {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+  }
+  .header {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1098px;
+    width: 100%;
+  }
+
+  .h-ul {
+    position: relative;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    padding-left: 0;
+    justify-content: end;
+  }
+  .logo {
+    border: none;
+  }
+  .list {
+    background: transparent;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  .ham-menu-close {
+    display: none;
+  }
+  .h-ul li {
+    border: none;
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header_container {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+  }
+  .header {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1400px;
+    width: 100%;
+  }
+}
